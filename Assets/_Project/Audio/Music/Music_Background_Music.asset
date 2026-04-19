@@ -1,0 +1,139 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1233149941 &-6896464435621416913
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: "Silent Hill 2 Ambience \xA6 Brookhaven Hospital 1st Floor (128kbit_AAC)_{-6896464435621416913}"
+  m_AudioClip: {fileID: 8300000, guid: 35995dcd19d793549b2f42465c26a37a, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &-5191955616003021860
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: "Silent Hill 2 \xA6 Woodside Apartments 3rd Floor Ambience (128kbit_AAC)_{-5191955616003021860}"
+  m_AudioClip: {fileID: 8300000, guid: 0809491d5ea31d344b39def7a4f2de82, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &-5084627587519736505
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: "Silent Hill 2 Ambience \xA6 Wood Side Apartments Room With The Clock (128kbit_AAC)_{-5084627587519736505}"
+  m_AudioClip: {fileID: 8300000, guid: 9bf943cb91c76c541b88810cfd3a998e, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &-4322100194870462801
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: "Silent Hill 2 Ambience \xA6 Toluca Prison Ambient Sounds (128kbit_AAC)_{-4322100194870462801}"
+  m_AudioClip: {fileID: 8300000, guid: 655bd6ad7e08d9a4fa9eeb600e08c374, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &-3479092277895279337
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: "Silent Hill 2 Ambient \xA6 Lake View Hotel Basement Ambient Music (128kbit_AAC)_{-3479092277895279337}"
+  m_AudioClip: {fileID: 8300000, guid: 64e5f18a19f8f6d4d94569aa2b2a241c, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &-3030607906861619654
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: "Silent Hill 2 Ambience \xA6 Apartment Buildings Ambient Music Layered
+    (128kbit_AAC)_{-3030607906861619654}"
+  m_AudioClip: {fileID: 8300000, guid: 7ab389cf658ddf94694b18f09bb0d8ff, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &-508982907805247781
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: "Silent Hill 2 Ambience \xA6 Wood Side Apartments 3rd Floor (128kbit_AAC)_{-508982907805247781}"
+  m_AudioClip: {fileID: 8300000, guid: 22e9b65cd952a9a488a89663df924ad1, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &4472506658749323308
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: "Silent Hill 2 Ambient \xA6 Woodside Apartment Building 3rd Floor Stairs
+    Ambient Music (128kbit_AAC)_{4472506658749323308}"
+  m_AudioClip: {fileID: 8300000, guid: eb0d2575076a02640b1458cd0eeb31ca, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1307931743 &6418180475301049370
+AudioRandomContainer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Music_Background_Music
+  m_Volume: 0
+  m_Pitch: 0
+  m_AutomaticTriggerTime: 0
+  m_LoopCount: 1
+  m_VolumeRandomizationRange: {x: 0, y: 0}
+  m_PitchRandomizationRange: {x: 0, y: 0}
+  m_AutomaticTriggerTimeRandomizationRange: {x: 0, y: 0}
+  m_LoopCountRandomizationRange: {x: 0, y: 0}
+  m_Elements:
+  - {fileID: -3030607906861619654}
+  - {fileID: -6896464435621416913}
+  - {fileID: -4322100194870462801}
+  - {fileID: -508982907805247781}
+  - {fileID: 6559754881175503169}
+  - {fileID: -5084627587519736505}
+  - {fileID: -3479092277895279337}
+  - {fileID: 4472506658749323308}
+  - {fileID: 8205921962752088193}
+  - {fileID: -5191955616003021860}
+  m_AvoidRepeatingLast: 0
+  m_PlaybackMode: 1
+  m_TriggerMode: 1
+  m_AutomaticTriggerMode: 1
+  m_LoopMode: 0
+  m_VolumeRandomizationEnabled: 0
+  m_PitchRandomizationEnabled: 0
+  m_AutomaticTriggerTimeRandomizationEnabled: 0
+  m_LoopCountRandomizationEnabled: 0
+--- !u!1233149941 &6559754881175503169
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: "Silent Hill 2 Ambience \xA6 Wood Side Apartments Ambient Mix (128kbit_AAC)_{6559754881175503169}"
+  m_AudioClip: {fileID: 8300000, guid: cf055a8988e8e204c9986bd4ff556dc4, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &8205921962752088193
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: "Silent Hill 2 \xA6 Toluca Prison Basement Ambient Music (128kbit_AAC)_{8205921962752088193}"
+  m_AudioClip: {fileID: 8300000, guid: bf2838e8c282324419131b71fab2ed80, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
