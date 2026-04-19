@@ -7,8 +7,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: CRT
-  m_Shader: {fileID: -6465566751694194690, guid: 0539952a99c19154391784b178becc1e, type: 3}
+  m_Name: Far Distance Fog
+  m_Shader: {fileID: -6465566751694194690, guid: a77343ec5e1f25644b16a3418aa3e6e6, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords: []
@@ -37,12 +37,15 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _Blur_Offset: 0.0015
-    - _Number_Of_Scan_Lines: 540
-    - _Scan_Lines_Frequancy: 60
-    - _Scan_Lines_Frequancy_Hertz: 60
-    - _Scan_Lines_Speed: 0.05
-    m_Colors:
-    - _Color: {r: 4, g: 4, b: 4, a: 1}
+    - _Drifting_Mist_Speed: 0.05
+    - _Enable_Grain: 1
+    - _Float: 0
+    - _Fog_Definition: 0.4
+    - _Fog_Density: 0.4
+    - _Fog_Distance_Falloff: 1.66
+    - _Fog_Range: 0.88
+    - _Grain_Intensity: 1.5
+    - _Grain_Scale: 1000
+    m_Colors: []
   m_BuildTextureStacks: []
   m_AllowLocking: 1

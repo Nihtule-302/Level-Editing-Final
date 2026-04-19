@@ -7,8 +7,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: SFar Distance Fog
-  m_Shader: {fileID: -6465566751694194690, guid: a77343ec5e1f25644b16a3418aa3e6e6, type: 3}
+  m_Name: Shader Graphs_Mist
+  m_Shader: {fileID: -6465566751694194690, guid: a36913cac20825d4a999020e6a8ffa3b, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords: []
