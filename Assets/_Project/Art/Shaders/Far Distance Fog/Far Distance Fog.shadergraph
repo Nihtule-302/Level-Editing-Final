@@ -281,6 +281,9 @@
         },
         {
             "m_Id": "2649db9bf3034ac29d319cffcfe86e21"
+        },
+        {
+            "m_Id": "9d11d5d43d4147e2ad2d129ba44ea352"
         }
     ],
     "m_GroupDatas": [
@@ -917,21 +920,7 @@
             },
             "m_InputSlot": {
                 "m_Node": {
-                    "m_Id": "b0cc1aa930dc438ea40bfc361b7c4002"
-                },
-                "m_SlotId": 1
-            }
-        },
-        {
-            "m_OutputSlot": {
-                "m_Node": {
-                    "m_Id": "8bb5582783404414a30d92af6fd70b4f"
-                },
-                "m_SlotId": 1
-            },
-            "m_InputSlot": {
-                "m_Node": {
-                    "m_Id": "e2fb14fe512b4cb3bdd95202dca695b4"
+                    "m_Id": "9d11d5d43d4147e2ad2d129ba44ea352"
                 },
                 "m_SlotId": 0
             }
@@ -1016,6 +1005,34 @@
             "m_InputSlot": {
                 "m_Node": {
                     "m_Id": "c454b27e321046dd8b4a6b42a0feb5a2"
+                },
+                "m_SlotId": 0
+            }
+        },
+        {
+            "m_OutputSlot": {
+                "m_Node": {
+                    "m_Id": "9d11d5d43d4147e2ad2d129ba44ea352"
+                },
+                "m_SlotId": 1
+            },
+            "m_InputSlot": {
+                "m_Node": {
+                    "m_Id": "b0cc1aa930dc438ea40bfc361b7c4002"
+                },
+                "m_SlotId": 1
+            }
+        },
+        {
+            "m_OutputSlot": {
+                "m_Node": {
+                    "m_Id": "9d11d5d43d4147e2ad2d129ba44ea352"
+                },
+                "m_SlotId": 1
+            },
+            "m_InputSlot": {
+                "m_Node": {
+                    "m_Id": "e2fb14fe512b4cb3bdd95202dca695b4"
                 },
                 "m_SlotId": 0
             }
@@ -2728,8 +2745,8 @@
     "m_ObjectId": "1e2bc5de1ed7432caa8db4b458ab90a3",
     "m_Title": "Blending Fog With Scene",
     "m_Position": {
-        "x": -426.00018310546877,
-        "y": -1851.000244140625
+        "x": -426.0,
+        "y": -1851.0
     }
 }
 
@@ -3861,6 +3878,31 @@
         "e32": 0.0,
         "e33": 1.0
     }
+}
+
+{
+    "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.DynamicVectorMaterialSlot",
+    "m_ObjectId": "37b7a1bfa7674baa9adf526bc9762374",
+    "m_Id": 0,
+    "m_DisplayName": "",
+    "m_SlotType": 0,
+    "m_Hidden": false,
+    "m_ShaderOutputName": "",
+    "m_StageCapability": 3,
+    "m_Value": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 0.0
+    },
+    "m_DefaultValue": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 0.0
+    },
+    "m_LiteralMode": false
 }
 
 {
@@ -5335,7 +5377,7 @@
     "m_Title": "Spherical UV Mapping",
     "m_Position": {
         "x": -4838.0,
-        "y": -2957.000244140625
+        "y": -2957.0
     }
 }
 
@@ -5393,8 +5435,8 @@
     "m_ObjectId": "62ad8837b4764cc19646668072ca3a60",
     "m_Title": "Horizontal Drifting Mist Layer Left",
     "m_Position": {
-        "x": -3263.000244140625,
-        "y": -3179.000244140625
+        "x": -3263.0,
+        "y": -3179.0
     }
 }
 
@@ -5779,8 +5821,8 @@
     "m_ObjectId": "71c564ed673241b4a7f57a74c0aa1d3b",
     "m_Title": "Fog Distance & Falloff",
     "m_Position": {
-        "x": -1453.0001220703125,
-        "y": -1960.000244140625
+        "x": -1453.0,
+        "y": -1963.0
     }
 }
 
@@ -6053,8 +6095,8 @@
     "m_ObjectId": "7bf8cf599dd546dc89e5197094434195",
     "m_Title": "Atmospheric Micro-Noise",
     "m_Position": {
-        "x": -1653.000244140625,
-        "y": -2397.000244140625
+        "x": -1653.0,
+        "y": -2397.0
     }
 }
 
@@ -6165,8 +6207,8 @@
     "m_ObjectId": "7f0c44b1e82048609b387532b24476ce",
     "m_Title": "Final Shader",
     "m_Position": {
-        "x": 65.9997787475586,
-        "y": -2074.000244140625
+        "x": 73.0,
+        "y": -2085.0
     }
 }
 
@@ -6285,8 +6327,8 @@
     "m_ObjectId": "8183c12d46d3449b8e9900b84b32a90d",
     "m_Title": "Fog Color & Density",
     "m_Position": {
-        "x": -1237.0001220703125,
-        "y": -2707.000244140625
+        "x": -1237.0,
+        "y": -2707.0
     }
 }
 
@@ -6811,10 +6853,10 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": -838.0,
-            "y": -1801.9998779296875,
+            "x": -852.0,
+            "y": -1878.9998779296875,
             "width": 128.0,
-            "height": 94.0001220703125
+            "height": 93.9998779296875
         }
     },
     "m_Slots": [
@@ -7334,6 +7376,42 @@
     "m_DefaultValue": 0.0,
     "m_Labels": [],
     "m_LiteralMode": false
+}
+
+{
+    "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.RedirectNodeData",
+    "m_ObjectId": "9d11d5d43d4147e2ad2d129ba44ea352",
+    "m_Group": {
+        "m_Id": ""
+    },
+    "m_Name": "Redirect Node",
+    "m_DrawState": {
+        "m_Expanded": true,
+        "m_Position": {
+            "serializedVersion": "2",
+            "x": -689.0,
+            "y": -1793.0,
+            "width": 0.0,
+            "height": 0.0
+        }
+    },
+    "m_Slots": [
+        {
+            "m_Id": "37b7a1bfa7674baa9adf526bc9762374"
+        },
+        {
+            "m_Id": "e8243e008165457a88a94140b3db1ecf"
+        }
+    ],
+    "synonyms": [],
+    "m_Precision": 0,
+    "m_PreviewExpanded": true,
+    "m_DismissedVersion": 0,
+    "m_PreviewMode": 0,
+    "m_CustomColors": {
+        "m_SerializableColors": []
+    }
 }
 
 {
@@ -8309,9 +8387,9 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": -1307.0001220703125,
-            "y": -1901.0,
-            "width": 145.0001220703125,
+            "x": -1307.0,
+            "y": -1903.9998779296875,
+            "width": 145.0,
             "height": 111.0
         }
     },
@@ -9096,8 +9174,8 @@
     "m_ObjectId": "ce03ff111b8e4336b9e3c120d37ec841",
     "m_Title": "Vertical Drifting Mist Layer Down",
     "m_Position": {
-        "x": -3263.000244140625,
-        "y": -2664.000244140625
+        "x": -3263.0,
+        "y": -2664.0
     }
 }
 
@@ -9808,8 +9886,8 @@
     "m_ObjectId": "d9b2905ffa944d51b974dd6fc0f1ed4a",
     "m_Title": "Fog Combination",
     "m_Position": {
-        "x": -1832.0001220703125,
-        "y": -2723.000244140625
+        "x": -1832.0,
+        "y": -2723.0
     }
 }
 
@@ -10216,6 +10294,31 @@
 
 {
     "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.DynamicVectorMaterialSlot",
+    "m_ObjectId": "e8243e008165457a88a94140b3db1ecf",
+    "m_Id": 1,
+    "m_DisplayName": "",
+    "m_SlotType": 1,
+    "m_Hidden": false,
+    "m_ShaderOutputName": "",
+    "m_StageCapability": 3,
+    "m_Value": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 0.0
+    },
+    "m_DefaultValue": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 0.0
+    },
+    "m_LiteralMode": false
+}
+
+{
+    "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.Vector1MaterialSlot",
     "m_ObjectId": "e8878b5dbfa64df7aece3ad18c80b8a3",
     "m_Id": 1,
@@ -10366,8 +10469,8 @@
     "m_ObjectId": "ed07879793684b08a7e772887560ab46",
     "m_Title": "Vertical Drifting Mist Layer Up",
     "m_Position": {
-        "x": -3263.000244140625,
-        "y": -2141.000244140625
+        "x": -3263.0,
+        "y": -2141.0
     }
 }
 
@@ -10653,8 +10756,8 @@
     "m_ObjectId": "f05bf494a91d4b0cbab47e2bab8813d5",
     "m_Title": "Horizontal Drifting Mist Layer Right",
     "m_Position": {
-        "x": -3263.000244140625,
-        "y": -3689.000244140625
+        "x": -3263.0,
+        "y": -3689.0
     }
 }
 
@@ -10779,10 +10882,10 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": 90.99974060058594,
-            "y": -2014.9998779296875,
-            "width": 129.99993896484376,
-            "height": 118.0001220703125
+            "x": 98.00007629394531,
+            "y": -2026.000244140625,
+            "width": 129.9999542236328,
+            "height": 118.0
         }
     },
     "m_Slots": [
@@ -10822,8 +10925,8 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": -1130.0,
-            "y": -1850.999755859375,
+            "x": -1140.0,
+            "y": -1878.9998779296875,
             "width": 126.0,
             "height": 117.9998779296875
         }

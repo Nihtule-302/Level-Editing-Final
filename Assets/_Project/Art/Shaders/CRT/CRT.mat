@@ -38,7 +38,7 @@ Material:
     m_Ints: []
     m_Floats:
     - _Blur_Offset: 0.0015
-    - _Number_Of_Scan_Lines: 540
+    - _Number_Of_Scan_Lines: 480
     - _Scan_Lines_Frequancy: 60
     - _Scan_Lines_Frequancy_Hertz: 60
     - _Scan_Lines_Speed: 0.05
