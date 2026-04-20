@@ -926,7 +926,7 @@
     "m_ObjectId": "2d5660e85c424a359d88cba7de5098e4",
     "m_Title": "Desaturate ",
     "m_Position": {
-        "x": -2393.0,
+        "x": -2392.999755859375,
         "y": -424.0
     }
 }
@@ -1269,8 +1269,8 @@
     "m_ObjectId": "4207e538c7f84e8da355aa9c480a9d07",
     "m_Title": "Combining Effects",
     "m_Position": {
-        "x": -233.0,
-        "y": 65.0
+        "x": -232.9997100830078,
+        "y": 64.99996185302735
     }
 }
 
@@ -2047,8 +2047,8 @@
     "m_ObjectId": "71ec925b4019475caa7e147711981592",
     "m_Title": "Crevices Mask",
     "m_Position": {
-        "x": -2065.0,
-        "y": -4.0
+        "x": -2064.999755859375,
+        "y": -4.0000457763671879
     }
 }
 
@@ -3029,7 +3029,7 @@
     "m_ObjectId": "cec16cfab1934c128d314096e7a0cc59",
     "m_Title": "Emission Color",
     "m_Position": {
-        "x": -924.0,
+        "x": -923.9996948242188,
         "y": 405.0
     }
 }
