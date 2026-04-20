@@ -65,7 +65,7 @@ Material:
     - _Surf_Dist: 0.01
     - _UnionSmoothness: 0.25
     m_Colors:
-    - _Color: {r: 32.43332, g: 0, b: 0, a: 0}
+    - _Color: {r: 8.10833, g: 0, b: 0, a: 0}
     - _Move_Scale: {r: 1.11, g: 1.11, b: 1.11, a: 0}
     - _Pos_Offset: {r: 0, g: 0, b: 0, a: 0}
   m_BuildTextureStacks: []
